@@ -8,7 +8,7 @@ In this workshop, you'll be provided this GitHub repo with details for a full op
 
 Begin this Career Simulation by cloning the GitHub repo, pseudocoding prompts, installing dependencies and solving the problems below.
 
-### Problem 1: GET all pets
+### Problem 1: GET all petss
 
 The GET route for all pets is currently "under construction". Navigate to `index.js` and find the GET method at `/api/v1/pets` and write the code to get all pets from the database.
 
