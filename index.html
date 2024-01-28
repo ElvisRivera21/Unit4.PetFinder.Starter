@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Page</title>
+    <title>Pet Finder</title>
 </head>
+
 <body>
-    
+    <h1>Pet Finder</h1>
+
+    <section id="allPets">
+        <h2>All Pets</h2>
+        <ul id="allPetsList"></ul>
+    </section>
+
+    <section id="petByName">
+        <h2>Pet By Name</h2>
+        <label for="petName">Enter pet name:</label>
+        <input type="text" id="petName" />
+        <button onclick="getPetByName()">Get Pet</button>
+        <div id="petByNameResult"></div>
+    </section>
+
+    <section id="petByOwner">
+        <h2>Pet By Owner's Name</h2>
+        <label for="ownerName">Enter owner's name:</label>
+        <input type="text" id="ownerName" />
+        <button onclick="getPetByOwner()">Get Pets</button>
+        <ul id="petByOwnerList"></ul>
+    </section>
+
+  
 </body>
+
 </html>
